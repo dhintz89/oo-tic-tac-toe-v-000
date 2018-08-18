@@ -35,7 +35,7 @@ class TicTacToe
     if @board[index] != " " && @board[index] != ""
       return true
     else
-      return FALSE
+      return false
     end
   end
   
